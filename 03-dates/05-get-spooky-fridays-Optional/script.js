@@ -11,6 +11,21 @@
 
 (function() {
 
-    // your code here
+    document.getElementById("run").addEventListener("click", ()=> {
+        let date = new Date();
+        let inputyear = document.getElementById("year").value;
+        date.setFullYear(inputyear);
+        date.setDate(13);
+        let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        let outputmonths = [];
+        for (let i = 0 ; i < 12 ; i++ ){
+            date.setMonth(i);
+            let weekday = date.getDay();
+            if (weekday == "5"){
+                outputmonths.push(months[i]);
+            }
+        }
+        console.log(outputmonths);
+    });
 
 })();
