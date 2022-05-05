@@ -26,6 +26,7 @@
             }
         }
         console.log(outputmonths);
+        window.alert(outputmonths);
     });
 
 })();
