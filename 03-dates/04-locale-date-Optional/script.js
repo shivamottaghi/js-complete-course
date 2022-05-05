@@ -12,7 +12,15 @@
 (function() {
 
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
-
-    // your code here
-
+    let weekdays = ['Sunday' , 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    let months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+    const d = new Date();
+    let today = d.getDate();
+    let hour = d.getHours();
+    let minute = d.getMinutes();
+    let week = d.getDay();
+    let month = d.getMonth();
+    let year = d.getFullYear();
+    document.getElementById("target").innerHTML = weekdays[week] + " " + today + " " + months[month]
+    + " " + year + " ," + hour + "h" + minute ;
 })();
