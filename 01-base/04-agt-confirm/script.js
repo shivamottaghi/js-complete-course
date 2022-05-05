@@ -11,6 +11,18 @@
 
 (function() {
 
-    // your code here
+function questions (){
+    let theAge = prompt("How old are you?");
+    let theGender = prompt("What is your gender?");
+    let theTown = prompt("Where do you live?", "your town or city");
+    var theInfo = " Your age: " + theAge + " Your gender: " + theGender + " Your town or city: " + theTown;
+    return theInfo;
+}
+var info = questions ();
+let confirm = window.confirm("Is this information correct? if yes please click the\"ok\" button.\n" + info );
+
+if (confirm !== true ){
+    var info = questions();
+}
 
 })();
