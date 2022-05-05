@@ -11,6 +11,7 @@
 
 (function() {
 
-    // your code here
+    var myalert = "Hello, World!";
+    window.alert(myalert);
 
 })();
