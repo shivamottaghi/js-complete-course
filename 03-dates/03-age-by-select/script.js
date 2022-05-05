@@ -15,11 +15,20 @@
     document.getElementById("run").addEventListener("click", () =>
     {
         let day = document.getElementById("dob-day").value ;
-        let month = document.getElementById("dob-month").value - 1;
+        let month = document.getElementById("dob-month").value;
         let year = document.getElementById("dob-year").value;
+        let bstring = month + "/" + day + "/" + year;
 
-        let d = new Date();
-        /*let today= d.getTime()*/
+        let now = Date.now();
+        let birthday = new Date(bstring);
+
+        let age = now - birthday;
+        console.log(age);
+
+        let yearage = Math.floor(age/1000/60/60/24/365);
+        window.alert(yearage);
+        /*let d = new Date();
+        /!*let today= d.getTime()*!/
         let today = d.getDate();
         let thisMonth = d.getMonth();
         console.log(d.getMonth())
@@ -37,7 +46,7 @@
         }
         let message =
             "Yor Age is : " + ageYear + " Years and " + ageMonth + " Months and " + ageDay + " Days\n But it doesn't work completely right!";
-        window.alert(message);
+        window.alert(message);*/
     })
 
 })();
