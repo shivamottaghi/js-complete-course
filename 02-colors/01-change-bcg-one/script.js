@@ -11,6 +11,17 @@
 
 (function() {
 
-    // your code here
 
 })();
+function turnRed(){
+    document.body.style.backgroundColor = "red";
+}
+function turnGreen(){
+    document.body.style.backgroundColor = "green";
+}
+function  turnYellow(){
+    document.body.style.backgroundColor = "yellow";
+}
+function turnBlue(){
+    document.body.style.backgroundColor = "blue";
+}
