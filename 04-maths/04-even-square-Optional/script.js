@@ -12,9 +12,16 @@
 (function() {
 
     document.getElementById("run").addEventListener("click", function() {
-
-        // your code here
-
+        let outputnum = [];
+        for (let i=1 ; i <=21 ; i++){
+           let check = Math.sqrt(i);
+           if (Number.isSafeInteger(check)){
+               outputnum.push(i);
+           }
+        }
+        let outputstring = "";
+        outputnum.forEach(num => outputstring = outputstring + num + ", ");
+        window.alert(outputstring);
     });
 
 })();
