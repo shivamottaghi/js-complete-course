@@ -1,9 +1,9 @@
 # js-complete-course
 ## Base
--[x] 01 var alert
--[x] 02 var prompt
--[x] 03 var prompt if
--[x] 04 var confirm
+- [x] 01 var alert
+- [x] 02 var prompt
+- [x] 03 var prompt if
+- [x] 04 var confirm
 ## Colors
 - [x] 01 bcg one
 - [x] 02 bcg two
