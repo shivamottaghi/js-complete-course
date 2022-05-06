@@ -20,8 +20,6 @@
         document.getElementById("target").innerHTML = "Hello!";
     }else if( hour == 17 && minutes <= 30){
         document.getElementById("target").innerHTML = "Hello!";
-    }else if ( hour == 17 && minutes > 30){
-        document.getElementById("target").innerHTML = "Good evening!";
     }else{
         document.getElementById("target").innerHTML = "Good evening!";
     }
