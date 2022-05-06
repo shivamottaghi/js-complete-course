@@ -13,7 +13,18 @@
 
     document.getElementById("run").addEventListener("click", function() {
         let outputnum = [];
-        for (let i=1 ; i <=21 ; i++){
+
+        for(let i=1 ; i <=21 ; i++){
+            let square = i*i;
+            outputnum.push(square);
+        }
+        let outputstring = "";
+        outputnum.forEach(num => outputstring = outputstring + num + ", ");
+        window.alert(outputstring);
+
+
+        /*Apparently I didn't understand the assignment */
+        /*for (let i=1 ; i <=21 ; i++){
            let check = Math.sqrt(i);
            if (Number.isSafeInteger(check)){
                outputnum.push(i);
@@ -21,7 +32,7 @@
         }
         let outputstring = "";
         outputnum.forEach(num => outputstring = outputstring + num + ", ");
-        window.alert(outputstring);
+        window.alert(outputstring);*/
     });
 
 })();
