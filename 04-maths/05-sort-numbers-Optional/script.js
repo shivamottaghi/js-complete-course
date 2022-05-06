@@ -15,7 +15,17 @@
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        let numarr = document.getElementById("numbers").value.split(', ');
+        numarr.sort(function (a,b){return a-b});
+        console.log(numarr);
+        window.alert(numarr);
+
+        /*Here I wanted to turn the whole array into integer, Then I realized there is no need!*/
+        /*for (let i = 0; i < numarr.length ; i ++){
+            let numint = parseInt(numarr[i]);
+
+        }
+        console.log(numarr);*/
 
     });
 
