@@ -33,5 +33,22 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 - https://dev.to/cesareferrari/using-a-for-loop-to-output-a-factorial-4d6l
 ## Arrays
+- [x] 01 get element
+- [x] 02 manipulate array
+- [x] 03 walk one
+- [x] 04 walk two
+- [x] 05 walk three
+- [ ] 06 find in array
+- [ ] 07 filter array
+- [ ] 08 array includes
+- [ ] 09 reduce array
+- [ ] 10 dedupe array
+- [ ] 11 rand array stats
+#### Helpful links:
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
+
 
 
