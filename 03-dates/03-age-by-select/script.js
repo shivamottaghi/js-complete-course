@@ -14,10 +14,24 @@
     // your code here
     document.getElementById("run").addEventListener("click", () =>
     {
-        let day = document.getElementById("dob-day").value ;
-        let month = document.getElementById("dob-month").value;
-        let year = document.getElementById("dob-year").value;
-        let bstring = month + "/" + day + "/" + year;
+        let bday = document.getElementById("dob-day").value ;
+        let bmonth = document.getElementById("dob-month").value;
+        let byear = document.getElementById("dob-year").value;
+
+        let date = new Date();
+        let today = date.getDate();
+        let thisMonth = date.getMonth() + 1;
+        let thisYear = date.getFullYear();
+
+        let months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+
+
+
+
+
+        /*-------------This part calculated the years old corectly------------*/
+        /*let bstring = month + "/" + day + "/" + year;
 
         let now = Date.now();
         let birthday = new Date(bstring);
@@ -26,7 +40,9 @@
         console.log(age);
 
         let yearage = Math.floor(age/1000/60/60/24/365);
-        window.alert(yearage);
+        window.alert(yearage);*/
+
+        /*---------Oldest version of my code which was very wrong----------*/
         /*let d = new Date();
         /!*let today= d.getTime()*!/
         let today = d.getDate();
