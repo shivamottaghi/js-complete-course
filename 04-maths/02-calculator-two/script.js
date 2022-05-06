@@ -15,17 +15,24 @@
 
     var performOperation = function(operation) {
         // perform the operation
+        console.log(operation);
         let output = 0 ;
         switch (operation) {
-            case '+' :
+            case 'addition' :
                 output = op1 + op2 ;
                 break;
-            case '-' :
+            case 'substraction' :
                 output = op1 - op2;
                 break;
-            case '*':
+            case 'multiplication':
+                output = op1 * op2;
+                break;
+            case 'division':
+                output = op1 / op2;
+                break;
 
         }
+        window.alert(output);
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
