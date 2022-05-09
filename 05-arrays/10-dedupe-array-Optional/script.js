@@ -28,5 +28,8 @@
         "cerise",
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener("click", ()=>{
+        let nodup = new Set(fruits);
+        console.log(nodup);
+    });
 })();
