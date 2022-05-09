@@ -26,6 +26,12 @@
         "cherry",
     ];
 
-    // your code here
+    document.getElementById("run").addEventListener("click", () => {
+        if (fruits.indexOf("apple")!== -1){
+            console.log("Yes");
+        }else {
+            console.log("No");
+        }
+    });
 
 })();

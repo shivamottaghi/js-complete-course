@@ -39,7 +39,7 @@
 - [x] 04 walk two
 - [x] 05 walk three
 - [x] 06 find in array
-- [ ] 07 filter array
+- [x] 07 filter array
 - [ ] 08 array includes
 - [ ] 09 reduce array
 - [ ] 10 dedupe array
