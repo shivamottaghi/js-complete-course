@@ -25,8 +25,20 @@
 
         let months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
+        if ( bday > today ){
+            today += months[thisMonth - 1];
+            thisMonth -- ;
+        }
+        if ( bmonth > thisMonth ){
+            thisMonth += 12 ;
+            thisYear -- ;
+        }
 
+        let dayo = today - bday ;
+        let montho = thisMonth - bmonth;
+        let yearo = thisYear - byear;
 
+        window.alert("your age is : " + yearo + " years and " + montho + " months and " + dayo + " days!" );
 
 
 
