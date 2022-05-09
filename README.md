@@ -67,3 +67,4 @@
 - [ ] 11 event input two
 - [ ] 12 mini carousel
 #### Helpful links:
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
