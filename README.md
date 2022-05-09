@@ -50,6 +50,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
 - https://dev.to/soyleninjs/3-ways-to-remove-duplicates-in-an-array-in-javascript-259o
+- https://dirask.com/posts/JavaScript-generate-array-with-10-random-numbers-paolg1
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
 
 
 
