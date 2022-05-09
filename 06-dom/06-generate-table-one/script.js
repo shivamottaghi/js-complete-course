@@ -11,6 +11,13 @@
 
 (function() {
 
-    // your code here
+    let tbl = document.createElement('table');
+    for (let i = 0; i < 10; i++ ){
+        let row = document.createElement('tr');
+        let col = document.createElement('td');
+        row.appendChild(col);
+        tbl.appendChild(row);
+    }
+    document.getElementById('target').appendChild(tbl);
 
 })();
