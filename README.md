@@ -38,7 +38,7 @@
 - [x] 03 walk one
 - [x] 04 walk two
 - [x] 05 walk three
-- [ ] 06 find in array
+- [x] 06 find in array
 - [ ] 07 filter array
 - [ ] 08 array includes
 - [ ] 09 reduce array
