@@ -54,12 +54,12 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
 ## DOM
-- [ ] 01 select one
-- [ ] 02 select two
-- [ ] 03 select three
-- [ ] 04 atrr create
-- [ ] 05 hover image
-- [ ] 06 generate table one
+- [x] 01 select one
+- [x] 02 select two
+- [x] 03 select three
+- [x] 04 atrr create
+- [x] 05 hover image
+- [x] 06 generate table one
 - [ ] 07 generate table two 
 - [ ] 08 password one
 - [ ] 09 password two
