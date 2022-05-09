@@ -40,8 +40,8 @@
 - [x] 05 walk three
 - [x] 06 find in array
 - [x] 07 filter array
-- [ ] 08 array includes
-- [ ] 09 reduce array
+- [x] 08 array includes
+- [x] 09 reduce array
 - [ ] 10 dedupe array
 - [ ] 11 rand array stats
 #### Helpful links:
