@@ -42,8 +42,8 @@
 - [x] 07 filter array
 - [x] 08 array includes
 - [x] 09 reduce array
-- [ ] 10 dedupe array
-- [ ] 11 rand array stats
+- [x] 10 dedupe array
+- [x] 11 rand array stats
 #### Helpful links:
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
@@ -52,6 +52,7 @@
 - https://dev.to/soyleninjs/3-ways-to-remove-duplicates-in-an-array-in-javascript-259o
 - https://dirask.com/posts/JavaScript-generate-array-with-10-random-numbers-paolg1
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
 
 
 
