@@ -11,6 +11,14 @@
 
 (function() {
 
-    // your code here
+    let table = document.createElement('table');
+    for (let i = 0 ; i < 10 ; i++){
+        let row = table.insertRow();
+        for ( let j = 0 ; j < 10 ; j++){
+            row.insertCell().innerHTML = `${(i+1)*(j+1)}`;
+        }
+    }
+
+    document.getElementById('target').appendChild(table);
 
 })();
