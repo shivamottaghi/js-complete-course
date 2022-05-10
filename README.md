@@ -60,12 +60,12 @@
 - [x] 04 atrr create
 - [x] 05 hover image
 - [x] 06 generate table one
-- [ ] 07 generate table two 
-- [ ] 08 password one
-- [ ] 09 password two
-- [ ] 10 event input one
-- [ ] 11 event input two
-- [ ] 12 mini carousel
+- [x] 07 generate table two 
+- [x] 08 password one
+- [x] 09 password two
+- [x] 10 event input one
+- [x] 11 event input two
+- [x] 12 mini carousel
 #### Helpful links:
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 - https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
@@ -73,3 +73,5 @@
 - https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/
 - https://www.codegrepper.com/code-examples/javascript/change+image+on+hover+javascript
 - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+- https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- https://developer.mozilla.org/en-US/docs/Web/Events
