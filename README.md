@@ -72,3 +72,4 @@
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
 - https://www.geeksforgeeks.org/how-to-create-an-image-element-dynamically-using-javascript/
 - https://www.codegrepper.com/code-examples/javascript/change+image+on+hover+javascript
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
