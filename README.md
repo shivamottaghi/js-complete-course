@@ -15,7 +15,7 @@
 ## Dates
 - [x] 01 title by hr one 
 - [x] 02 title by hr two 
-- [x] 03 age by select --> *just calculates the years* 
+- [x] 03 age by select  
 - [x] 04 local date 
 - [x] 05 friday the 13th
   <br/>
@@ -75,3 +75,10 @@
 - https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
 - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 - https://developer.mozilla.org/en-US/docs/Web/Events
+## Fetch
+- [ ] 01 list to console
+- [ ] 02 details
+- [ ] 03 list to template
+- [ ] 04 add
+- [ ] 05 delete
+#### Helpful links:
