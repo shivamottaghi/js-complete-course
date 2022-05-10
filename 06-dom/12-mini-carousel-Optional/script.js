@@ -19,6 +19,15 @@
         "../../_shared/img/map.svg",
     ];
 
-    // your code here
+    let counter = 0;
+    document.getElementById('next').addEventListener('click', () =>{
+        if (counter < gallery.length - 1){
+            counter ++;
+            document.querySelector('img[alt="Carousel"]').src = gallery[counter];
+        } else {
+            counter = 0;
+            document.querySelector('img[alt="Carousel"]').src = gallery[counter];
+        }
+    });
 
 })();
