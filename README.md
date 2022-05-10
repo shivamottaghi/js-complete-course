@@ -82,3 +82,6 @@
 - [ ] 04 add
 - [ ] 05 delete
 #### Helpful links:
+- *Asynchronous Vs Synchronous Programming:* https://www.youtube.com/watch?v=Kpn2ajSa92c
+- *JavaScript Promises:* https://www.youtube.com/watch?v=DHvZLI7Db8E
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
