@@ -11,6 +11,25 @@
 
 (function() {
 
-    // your code here
+    let pass = document.getElementById('pass-one');
+    let valid = document.getElementById('validity');
+    pass.addEventListener('input', () =>{
+        if (pass.value.length>=8){
+            let passarr = pass.value.split('');
+            let numcount = 0;
+            console.log(passarr);
+            for (let i = 0 ; i < passarr.length ; i ++ ){
+                if (!isNaN(parseFloat(passarr[i]))){
+                    numcount ++;
+                }
+            }
+            console.log(numcount);
+            if (numcount >= 2){
+                valid.innerHTML = 'ok';
+            }else {
+                valid.innerHTML = 'Not ok';
+            }
+        }
+    });
 
 })();
