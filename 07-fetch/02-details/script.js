@@ -12,14 +12,33 @@
 (() => {
     document.getElementById('run').addEventListener('click',()=>{
         let inpId = document.getElementById('hero-id').value;
-        /*async function getData(){
+        async function getData(){
             let data = await fetch('../../_shared/api.json');
-            let jsnobj =await data.json();
-            console.log(jsnobj);
-            console.log(arr);
+            let jsobj = await data.json();
+            console.log(jsobj);
+            let heroes = jsobj.heroes;
+            return heroes;
         }
-        getData();*/
-        fetch('../../_shared/api.json')
+        async function displayData (){
+            let heroes = await getData();
+            let found = heroes.find(hero => hero.id == inpId)
+            console.log(found);
+            let templ = document.getElementById('tpl-hero');
+            let clone = templ.content.cloneNode(true);
+            let nametag = clone.querySelector('.name');
+            let egotag = clone.querySelector('.alter-ego');
+            let powertag = clone.querySelector(".powers");
+
+            nametag.innerText = found.name;
+            egotag.innerText = found.alterEgo;
+            powertag.innerText = found.abilities;
+
+            document.getElementById('target').appendChild(clone);
+        }
+        displayData();
+
+        /*--------Same code but with then() method--------*/
+        /*fetch('../../_shared/api.json')
             .then(response => response.json())
             .then(data => {
                 let found = data.heroes.find(hero => hero.id == inpId)
@@ -35,9 +54,7 @@
                 powertag.innerText = found.abilities;
 
                 document.getElementById('target').appendChild(clone);
-
-
-            })
+            })*/
 
     })
 })();
