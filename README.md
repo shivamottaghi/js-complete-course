@@ -79,8 +79,8 @@
 - [x] 01 list to console
 - [x] 02 details
 - [x] 03 list to template
-- [ ] 04 add
-- [ ] 05 delete
+- [x] 04 add
+- [x] 05 delete
 #### Helpful links:
 - *Asynchronous Vs Synchronous Programming:* https://www.youtube.com/watch?v=Kpn2ajSa92c
 - *JavaScript Promises:* https://www.youtube.com/watch?v=DHvZLI7Db8E
