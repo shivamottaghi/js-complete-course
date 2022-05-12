@@ -76,8 +76,8 @@
 - https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 - https://developer.mozilla.org/en-US/docs/Web/Events
 ## Fetch
-- [ ] 01 list to console
-- [ ] 02 details
+- [x] 01 list to console
+- [x] 02 details
 - [ ] 03 list to template
 - [ ] 04 add
 - [ ] 05 delete
@@ -85,3 +85,4 @@
 - *Asynchronous Vs Synchronous Programming:* https://www.youtube.com/watch?v=Kpn2ajSa92c
 - *JavaScript Promises:* https://www.youtube.com/watch?v=DHvZLI7Db8E
 - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
