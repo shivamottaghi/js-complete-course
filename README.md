@@ -78,7 +78,7 @@
 ## Fetch
 - [x] 01 list to console
 - [x] 02 details
-- [ ] 03 list to template
+- [x] 03 list to template
 - [ ] 04 add
 - [ ] 05 delete
 #### Helpful links:
