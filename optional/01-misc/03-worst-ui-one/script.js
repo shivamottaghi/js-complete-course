@@ -11,6 +11,12 @@
 
 (function() {
 
-    // your code here
+
+    const target = document.getElementById('target');
+    const myslider = document.getElementById('slider');
+
+    myslider.addEventListener('change', () => {
+        target.innerText = `0${myslider.value}`;
+    });
 
 })();
