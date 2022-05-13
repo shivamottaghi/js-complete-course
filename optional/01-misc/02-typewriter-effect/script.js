@@ -11,6 +11,16 @@
 
 (function() {
 
-    // your code here
+    let target = document.getElementById('target');
+    let textstring = target.innerText;
+    let textarr = textstring.split('');
+    console.log(textarr);
+    target.innerText = '';
+    textarr.forEach((char,i) =>{
+        setTimeout(()=> {
+            target.innerHTML = target.innerHTML + char;
+        }, 500 * i);
+    })
+
 
 })();
