@@ -30,27 +30,43 @@
         let wordWithCharInSpan = word.join('');
         return wordWithCharInSpan;
     })
-    console.log(spanCharToString);
+    // console.log(spanCharToString);
     let childString = spanCharToString.join(' ');
-    console.log(childString);
+    // console.log(childString);
     document.getElementById('target').innerHTML = childString;
     let chars = document.querySelectorAll('.mychar');
-    let fontsize = 32;
+    console.log(chars)
+    let fonts = ['32px' , '37px', '42px', '47px' , '52px','47px', '42px', '37px'];
+    let start = 0;
+    function dynamicWave(start){
+        for (let i=0 ; i<chars.length; i++){
+            chars[i].style.fontSize = fonts[(start + i)% fonts.length];
+        }
+    }
+
+    setInterval(()=> {
+        dynamicWave(start);
+        start++;
+    }, 100)
+
+
+
+
+    //static wave
+    /*let fontsize = 32;
     console.log(chars);
     let increase = true;
     let dif;
-    for (let i= 0; i < chars.length; i ++){
-        if (i % 5 === 0){
-            increase != increase;
-        }
-        if (increase){
-            dif = i%5 * 3;
-        }
-        else {
-            dif = (5 - i%5) * 3 ;
-        }
-        chars[i].style.fontSize = fontsize + dif + "px";
-    }
-
-
+    for (let i=0 ; i < chars.length; i ++){
+                if (i % 5 === 0){
+                    increase != increase;
+                }
+                if (increase){
+                    dif = i%5 * 3;
+                }
+                else {
+                    dif = (5 - i%5) * 3 ;
+                }
+                chars[i].style.fontSize = fontsize + dif + "px";
+            }*/
 })();
